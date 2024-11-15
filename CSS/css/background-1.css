@@ -1,0 +1,25 @@
+.bg1{
+	width:100%;
+	height:100vh;
+	background:url(https://i.pinimg.com/originals/9f/1e/f0/9f1ef048539f565a78296d5b4c18c4ac.jpg) ,linear-gradient(green,white,blue);
+	background-blend-mode:multiply;
+	background-size:cover;
+	background-attachment:fixed;
+}
+.bg2{
+	height:900px;
+	background:url(https://img3.goodfon.com/original/2048x1365/8/69/priroda-gory-kamni-les.jpg);
+	
+}
+.bg3{
+	background:url(https://avatars.mds.yandex.net/i?id=3c4fc34ba4d9c818d2633cd12343c1a926a715ec-10119934-images-thumbs&n=13);
+	height:900px;
+	background-repeat:no-repeat;
+}
+
+.bg4{
+	background:url(../img/img.jpg);
+	height:800px;
+	background-repeat:no-repeat;
+	
+}

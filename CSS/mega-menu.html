@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Basic styles for the mega menu */
+        .mega-menu {
+            display: none;
+            position: absolute;
+            width: 400px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .menu-item {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .menu-item img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        /* Hover effect to show the mega menu */
+        .nav-item:hover .mega-menu {
+            display: block;
+        }
+
+        /* Style for the main navigation */
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        li {
+            margin: 0 15px;
+            position: relative;
+        }
+
+        /* Style for the top-level navigation items */
+        .nav-item {
+            position: relative;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="nav-item">
+            <div class="menu-item">
+                <img src="image1.jpg" alt="Item 1">
+                <div>
+                    <h3>Item 1</h3>
+                    <p>Description of Item 1</p>
+                </div>
+            </div>
+            <div class="mega-menu">
+                <div class="menu-item">
+                    <img src="subimage1.jpg" alt="Subitem 1">
+                    <div>
+                        <h3>Subitem 1</h3>
+                        <p>Description of Subitem 1</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="subimage2.jpg" alt="Subitem 2">
+                    <div>
+                        <h3>Subitem 2</h3>
+                        <p>Description of Subitem 2</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="nav-item">
+            <div class="menu-item">
+                <img src="image2.jpg" alt="Item 2">
+                <div>
+                    <h3>Item 2</h3>
+                    <p>Description of Item 2</p>
+                </div>
+            </div>
+            <div class="mega-menu">
+                <div class="menu-item">
+                    <img src="subimage3.jpg" alt="Subitem 3">
+                    <div>
+                        <h3>Subitem 3</h3>
+                        <p>Description of Subitem 3</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="subimage4.jpg" alt="Subitem 4">
+                    <div>
+                        <h3>Subitem 4</h3>
+                        <p>Description of Subitem 4</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</body>
+</html>
